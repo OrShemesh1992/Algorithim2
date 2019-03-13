@@ -8,8 +8,8 @@ public class Bottels {
 		int[][] mat=new int[length][length];
 		for (int a = 0; a <= m; a++) {
 			for (int b = 0; b <= n; b++) {
-				int ind = index(a,b,n); //מס' שורה במטריצה 
-				int j1=index(0,b,n); //ארבעת התאים לאלגוריתם 
+				int ind = index(a,b,n); 
+				int j1=index(0,b,n); 
 				mat[ind][j1]=1;
 				int j2=index(m,b,n);
 				mat[ind][j2]=1;

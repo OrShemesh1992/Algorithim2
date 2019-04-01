@@ -59,5 +59,5 @@ public class BestCircle {
 		int node[] = {3,6,2,8};
 		int gaz[] = {5,4,3,4};
 		System.out.println("Best road for gaz: "+ TheBestWay(node,gaz));
-	} 
+	}
 }
